@@ -23,7 +23,13 @@ var networks = {
       core_asset: 'PPYTEST',
       address_prefix: 'PPYTEST',
       chain_id: 'be6b79295e728406cbb7494bcb626e62ad278fa4018699cf8f75739f4c1a81fd'
+    },
+    PeerplaysBeatrice: {
+      core_asset: "TEST",
+      address_prefix: "TEST",
+      chain_id: "b3f7fe1e5ad0d2deca40a626a4404524f78e65c3a48137551c33ea4e7c365672"
     }
+
   }
 };
 

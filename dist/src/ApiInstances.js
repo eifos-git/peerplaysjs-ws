@@ -160,7 +160,7 @@ exports.default = {
     var connectTimeout = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 4000;
 
     if (!inst) {
-      inst = new ApisInstance();
+      inst = new ApisInstance(_ChainConfig2.default);
       inst.setRpcConnectionStatusCallback(this.statusCb);
     }
 
